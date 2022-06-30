@@ -13,6 +13,16 @@ const fulfillments: Fulfillment[] = [
     orderId: 2,
     status: Status.Shipped,
   },
+  {
+    id: 1002,
+    orderId: 3,
+    status: Status.Shipped,
+  },
+  {
+    id: 1003,
+    orderId: 4,
+    status: Status.Packing,
+  },
 ];
 
 const typeDefs = readFileSync("./schema.graphql", "utf8");
