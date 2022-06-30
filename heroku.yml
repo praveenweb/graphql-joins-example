@@ -1,0 +1,4 @@
+build:
+  docker:
+    fulfillment: ./fulfillment/Dockerfile
+    store: ./store/Dockerfile
