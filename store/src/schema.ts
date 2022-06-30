@@ -34,6 +34,24 @@ const orders: Order[] = [
       },
     ],
   },
+  {
+    id: 3,
+    lineItems: [
+      {
+        quantity: 5,
+        itemId: 2,
+      },
+    ],
+  },
+  {
+    id: 4,
+    lineItems: [
+      {
+        quantity: 2,
+        itemId: 1,
+      },
+    ],
+  },
 ];
 
 const typeDefs = readFileSync("./schema.graphql", "utf8");
